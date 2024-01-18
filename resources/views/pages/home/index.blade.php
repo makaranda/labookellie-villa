@@ -169,7 +169,7 @@
               <div class="card-body">
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
                 <h4 class="card-explore__title"><a href="#">Premium Room</a></h4>
-                <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+                <p>Beginning fourth dominion a creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
                 <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
               </div>
             </div>
