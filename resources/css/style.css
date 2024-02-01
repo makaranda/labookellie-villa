@@ -538,7 +538,7 @@ button {
         margin-bottom: 45px; } }
   .home-banner-area {
     height: 500px;
-    background: url("../images/home/XW1A6299_new.jpg") center center no-repeat;
+    background: url("../images/home/main_slider_image.jpg") center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1; }
@@ -566,7 +566,7 @@ button {
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(1, 2, 11, 0.7);
+      background: rgba(1, 2, 11, 0.5);
       z-index: -1; }
   .home-banner-btn {
     border: 2px solid #cca772;

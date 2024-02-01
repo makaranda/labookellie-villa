@@ -20,6 +20,46 @@
 </div>
 </section>
 
+	<!-- ================ welcome section start ================= -->
+    <section class="welcome pt-0 section-margin">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+                <div class="row no-gutters welcome-images">
+                  <div class="col-sm-7">
+                    <div class="card">
+                      <img class="" src="{{ URL::to('') }}/resources/images/home/XW1A6320_llist_left.jpg" alt="Card image cap">
+                    </div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="card">
+                      <img class="" src="{{ URL::to('') }}/resources/images/home/XW1A6320_llist_right.jpg" alt="Card image cap">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="card">
+                      <img class="" src="{{ URL::to('') }}/resources/images/home/XW1A6320_llist_bottom.jpg" alt="Card image cap">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-lg-7">
+              <div class="welcome-content">
+                <h2 class="mb-4"><span class="d-block">Welcome</span> to our residence</h2>
+                <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed moved firmament gathered </p>
+                <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed</p>
+
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="welcome-content pl-0 mt-4">
+                <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed moved firmament gathered </p>
+                <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 @endsection
 
 @push('css')

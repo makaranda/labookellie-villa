@@ -4,7 +4,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div id="logo">
-            <a href="index.html"><img src="{{ URL::to('') }}/resources/images/Logo.png" alt="" title="" /></a>
+            <a href="{{ URL::to('') }}"><img src="{{ URL::to('') }}/resources/images/Logo.png" alt="" title="" /></a>
           </div>
           <div class="ml-auto d-none d-md-block d-md-flex">
             <div class="media header-top-info">
@@ -41,11 +41,11 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav">
-              <li class="nav-item active"><a class="nav-link" href="{{ URL::to('') }}">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/about-us">About us</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/rooms">Rooms</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/gallery">Gallery</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/contact-us">Contact us</a></li>
+              <li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}">Home</a></li>
+              <li class="nav-item {{ request()->is('about-us') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/about-us">About us</a></li>
+              <li class="nav-item {{ request()->is('rooms') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/rooms">Rooms</a></li>
+              <li class="nav-item {{ request()->is('gallery') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/gallery">Gallery</a></li>
+              <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/contact-us">Contact us</a></li>
             </ul>
           </div>
 

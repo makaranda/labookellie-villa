@@ -126,7 +126,7 @@
               <h2 class="mb-4"><span class="d-block">Welcome</span> to our residence</h2>
               <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed moved firmament gathered </p>
               <p>Beginning blessed second a creepeth. Darkness wherein fish years good air whose after seed appear midst evenin, appear void give third bearing divide one so blessed</p>
-              <a class="button button--active home-banner-btn mt-4" href="{{ URL::to('') }}/about-us">Learn More</a>
+              <a class="button button--active home-banner-btn mt-4" href="{{ URL::to('') }}/about-us">Read More</a>
             </div>
           </div>
         </div>

@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+    color: #222222;
+    font-weight: 700;
+}
+p,a {
+    font-family: 'Roboto' !important;
+}
+
+.button-contact {
+    border: 1px solid #cca772 !important;
+    padding: 9px 30px;
+    background: #cca772;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}

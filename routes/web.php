@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +29,8 @@ Route::get('/gallery', function () {
 Route::get('/contact-us', function () {
     return view('pages.contact.index');
 });
+
+Route::post('/contact-us/save', [ContactController::class, 'send'])->name('contact.send');
 
 Route::group(['prefix' => 'rooms'], function() {
 
