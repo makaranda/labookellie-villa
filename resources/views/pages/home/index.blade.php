@@ -18,7 +18,6 @@
     </section>
     <!-- ================ end banner area ================= -->
 
-
     <!-- ================ start banner form ================= -->
     <form class="form-search form-search-position">
       <div class="container">

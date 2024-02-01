@@ -802,6 +802,7 @@ button {
     .card-news__title a {
       color: #222222;
       transition: color .2s ease; }
+
   .card-news__link {
     font-size: 13px;
     text-transform: uppercase;
@@ -814,6 +815,7 @@ button {
       transition: all .35s ease; }
   .card-news:hover .card-news__title a {
     color: #cca772; }
+
   .card-news:hover .card-news__link i, .card-news:hover .card-news__link span {
     padding-left: 10px; }
 
