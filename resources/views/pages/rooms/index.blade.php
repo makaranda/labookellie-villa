@@ -73,47 +73,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-xl-4 mb-5">
-          <div class="card card-explore">
-            <div class="card-explore__img">
-              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-explore__price">$120.00 <sub>/ Per Night</sub></h3>
-              <h4 class="card-explore__title"><a href="#">Single Bed Room</a></h4>
-              <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-              <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-6 col-xl-4 mb-5">
-          <div class="card card-explore">
-            <div class="card-explore__img">
-              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-explore__price">$130.00 <sub>/ Per Night</sub></h3>
-              <h4 class="card-explore__title"><a href="#">Classic Bed Room</a></h4>
-              <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-              <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-xl-4 mb-5">
-          <div class="card card-explore">
-            <div class="card-explore__img">
-              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-explore__price">$150.00 <sub>/ Per Night</sub></h3>
-              <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
-              <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-              <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
