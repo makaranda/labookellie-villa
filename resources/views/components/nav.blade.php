@@ -41,7 +41,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav">
-              <li class="nav-item active"><a class="nav-link" href="">Home</a></li>
+              <li class="nav-item active"><a class="nav-link" href="{{ URL::to('') }}">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/about-us">About us</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/rooms">Rooms</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ URL::to('') }}/gallery">Gallery</a></li>
