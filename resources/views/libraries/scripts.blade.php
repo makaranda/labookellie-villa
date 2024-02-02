@@ -10,6 +10,7 @@
 <script src="{{ URL::to('') }}/resources/vendors/jquery.ajaxchimp.min.js"></script>
 <script src="{{ URL::to('') }}/resources/vendors/mail-script.js"></script>
 <script src="{{ URL::to('') }}/resources/js/main.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
 $(document).ready(function(){

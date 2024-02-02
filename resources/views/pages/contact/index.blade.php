@@ -23,6 +23,13 @@
 <section class="section-margin">
     <div class="container">
       <!-- google map start -->
+      <div class="col-12 col-md-12">
+        @if(Session::has('message'))
+            <div class="alert alert-success">
+                {{ Session::get('message') }}
+            </div>
+        @endif
+      </div>
       <div class="d-none d-sm-block mb-5 pb-4">
         <div id="map" style="height: 420px;">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1979.930557220459!2d80.71727483444144!3d7.025606729441807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1706783883110!5m2!1sen!2slk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -63,22 +70,47 @@
               @csrf
               <div class="col-md-6">
                   <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                      <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" placeholder="Enter your name">
+                      @if($errors->has('name'))
+                            <small class="text-danger">{{ $errors->first('name') }}</small>
+                      @endif
                   </div>
                   <div class="form-group">
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                      <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}" placeholder="Enter email address">
+                      @if($errors->has('email'))
+                            <small class="text-danger">{{ $errors->first('email') }}</small>
+                      @endif
                   </div>
                   <div class="form-group">
-                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                      <input type="text" class="form-control" id="subject" name="subject" value="{{ old('subject') }}" placeholder="Enter Subject">
+                      @if($errors->has('subject'))
+                            <small class="text-danger">{{ $errors->first('subject') }}</small>
+                      @endif
                   </div>
               </div>
               <div class="col-md-6">
                   <div class="form-group">
-                      <textarea class="form-control different-control" name="message" id="message" rows="5" placeholder="Enter Message"></textarea>
+                      <textarea class="form-control different-control" name="message" id="message" rows="5" placeholder="Enter Message">{{ old('message') }}</textarea>
+                      @if($errors->has('message'))
+                            <small class="text-danger">{{ $errors->first('message') }}</small>
+                      @endif
                   </div>
               </div>
               <div class="col-md-12 text-right">
-                  <button type="submit" value="submit" class="button-contact"><span>Send Message</span></button>
+                <div class="row">
+                    <div class="col-12 col-md-6"></div>
+                    <div class="col-12 col-md-6">
+                        {!! htmlFormSnippet() !!}
+                        @if($errors->has('g-recaptcha-response'))
+                            <div class="text-left">
+                                <small class="text-danger">{{ $errors->first('g-recaptcha-response') }}</small>
+                            </div>
+                        @endif
+                    </div>
+                    <div class="col-12 col-md-12 mt-3">
+                        <button type="submit" value="submit" class="button-contact"><span>Send Message</span></button>
+                    </div>
+                </div>
               </div>
           </form>
         </div>
