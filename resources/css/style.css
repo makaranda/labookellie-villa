@@ -1083,7 +1083,7 @@ button {
         font-size: 48px; } }
   .contact-banner-area {
     height: 380px;
-    background: url("../images/home/contact-bg.png") center center no-repeat;
+    background: url("../images/home/contact-bg.jpg") center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1; }
@@ -1189,15 +1189,18 @@ button {
   .blog-banner h1 {
     font-size: 37px;
     margin-bottom: 5px; }
+
     @media (min-width: 992px) {
       .blog-banner h1 {
         font-size: 48px; } }
+
   .blog-banner-area {
     height: 380px;
-    background: url("../images/home/contact-bg.png") center center no-repeat;
+    background: url("../images/home/contact-bg.jpg") center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1; }
+
     @media (min-width: 600px) {
       .blog-banner-area {
         height: 500px; } }
