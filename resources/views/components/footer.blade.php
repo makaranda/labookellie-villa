@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="footer-bottom row align-items-center text-center text-lg-left">
-                    <p class="footer-text m-0 col-lg-12 col-md-12">Copyright &copy; {{ date('Y') }} All rights reserved | Labookellie Villa</p>
+                    <p class="footer-text m-0 col-lg-12 col-md-12">Copyright &copy; {{ date('Y') }} All Rights Reserved | Labookellie Villa</p>
                 </div>
             </div>
         </footer>

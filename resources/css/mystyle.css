@@ -37,3 +37,7 @@ p,a {
     z-index: 1;
     background-color: #fff !important;
 }
+.footer-area {
+    padding: 120px 0px 80px;
+    background: #0b1a2a;
+}

@@ -21,23 +21,23 @@
 </section>
 
 
-<section class="section-margin section-margin--small">
+<section class="section-margin">
     <div class="container">
       <div class="section-intro text-center pb-80px">
         <div class="section-intro__style">
-          <img src="img/home/bed-icon.png" alt="">
+          <img src="{{ URL::to('') }}/resources/images/home/bed-icon.png" alt="">
         </div>
         <h2>Explore Our Rooms</h2>
       </div>
 
-      <div class="row pb-4">
-        <div class="col-md-6 col-xl-4 mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card card-explore">
             <div class="card-explore__img">
-              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
+              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/home_rooms1.jpg" alt="">
             </div>
             <div class="card-body">
-              <h3 class="card-explore__price">$150.00 <sub>/ Per Night</sub></h3>
+              <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
               <h4 class="card-explore__title"><a href="#">Classic Bed Room</a></h4>
               <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
               <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
@@ -45,35 +45,33 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-xl-4 mb-5">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card card-explore">
             <div class="card-explore__img">
-              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
+              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/home_rooms2.jpg" alt="">
             </div>
             <div class="card-body">
-              <h3 class="card-explore__price">$170.00 <sub>/ Per Night</sub></h3>
+              <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
               <h4 class="card-explore__title"><a href="#">Premium Room</a></h4>
-              <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
+              <p>Beginning fourth dominion a creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
               <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-xl-4 mb-5">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card card-explore">
             <div class="card-explore__img">
-              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
+              <img class="card-img" src="{{ URL::to('') }}/resources/images/home/home_rooms3.jpg" alt="">
             </div>
             <div class="card-body">
-              <h3 class="card-explore__price">$190.00 <sub>/ Per Night</sub></h3>
+              <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
               <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
               <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
               <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </section>
