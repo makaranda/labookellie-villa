@@ -1183,9 +1183,11 @@ button {
   .blog-banner h4, .blog-banner h1, .blog-banner a {
     text-transform: uppercase;
     color: #fff; }
+
   .blog-banner h4 {
     font-size: 18px;
     margin-bottom: 15px; }
+
   .blog-banner h1 {
     font-size: 37px;
     margin-bottom: 5px; }
