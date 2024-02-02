@@ -32,7 +32,7 @@
                         <h4>About</h4>
                         <p>You can trust us. we only send promo offers,</p>
                         <div class="form-wrap footer-bottom " id="mc_embed_signup">
-                            <div class="col-lg-12 col-md-12 text-center text-lg-left footer-social p-0">
+                            <div class="col-lg-12 col-md-12 text-left text-lg-left footer-social p-0">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -45,8 +45,12 @@
                     <p class="footer-text m-0 col-lg-12 col-md-12">Copyright &copy; {{ date('Y') }} All Rights Reserved | Labookellie Villa</p>
                 </div>
             </div>
+
         </footer>
 
+
+
         @include('libraries.scripts')
+
     </body>
 </html>

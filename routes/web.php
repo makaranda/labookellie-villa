@@ -38,16 +38,16 @@ Route::group(['prefix' => 'rooms'], function() {
         return view('pages.rooms.index');
     });
 
-    Route::get('/rooms/room-name1', function() {
+    Route::get('/room-name1', function() {
         return view('pages.rooms.room_name1');
     });
 
-    Route::get('/rooms/room-name2', function() {
-        return view('pages.rooms.room_name2');
+    Route::get('/room-name2', function() {
+        return view('pages.rooms.room_name1');
     });
 
-    Route::get('/rooms/room-name3', function() {
-        return view('pages.rooms.room_name3');
+    Route::get('/room-name3', function() {
+        return view('pages.rooms.room_name1');
     });
 });
 

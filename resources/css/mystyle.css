@@ -43,12 +43,23 @@ p,a {
 }
 
 .card-explore__link {
-    font-size: 13px;
     text-transform: uppercase;
     font-family: "Playfair Display", serif;
     font-weight: 500;
     color: #fff;
     transition: color .2s ease;
+    padding: 10px 15px !important;
+    display: inline-block;
+}
+
+.card-explore__link.btn-outline{
+    background-color: #fff;
+    color: #cca772;
+}
+
+.card-explore__link.btn-outline:hover{
+    background-color: #cca772;
+    color: #fff;
 }
 
 .card-explore:hover a.card-explore__link {
@@ -70,4 +81,52 @@ a.card-explore__link:hover {
 }
 .home-banner-btn:hover {
     color: #cca772;
+}
+
+.thumbnails img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.theme-font-b {
+    color: #a3650d !important;
+    font-weight: 600;
+}
+
+.theme-font {
+    color: #83673e !important;
+}
+
+#toTop a {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: rgb(163 101 15);
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border-radius: 50px !important;
+    text-decoration: none;
+}
+#toTop a:hover {
+    background: rgb(199, 121, 12);
+}
+
+#toTop a i {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#toTop {
+    padding: 5px 3px;
+    color: #fff;
+    position: fixed;
+    z-index: 999999999;
+    bottom: 0px;
+    right: 10px;
 }

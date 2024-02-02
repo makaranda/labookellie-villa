@@ -15,6 +15,9 @@
         @include('libraries.styles')
     </head>
     <body class="home">
+        <div class="" id="toTop" style="display: none;">
+            <a href="#" class="js-gotop1"><i class="fa fa-arrow-up"></i></a>
+        </div>
         <main class="site-main">
 
         {{-- {{ url()->current() }} --}}

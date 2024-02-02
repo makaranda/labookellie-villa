@@ -699,7 +699,8 @@ button {
     /* color: #cca772;  */
   }
   .card-explore:hover .card-explore__link i, .card-explore:hover .card-explore__link span {
-    padding-left: 10px; }
+    /* padding-left: 10px;  */
+}
 
 /*=================== explore section end ====================*/
 /*=================== testimonial section start ====================*/

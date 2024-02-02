@@ -11,4 +11,25 @@
 <script src="{{ URL::to('') }}/resources/vendors/mail-script.js"></script>
 <script src="{{ URL::to('') }}/resources/js/main.js"></script>
 
+<script>
+$(document).ready(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#toTop').fadeIn();
+            $('body').css({'transform':'none'});
+        } else {
+            $('#toTop').fadeOut();
+            $('body').css({'transform':'none'});
+        }
+    });
+
+    $("#toTop").click(function () {
+        $("html, body").animate({scrollTop: 0}, 3000);
+    });
+
+// var $div = $('<div />').appendTo('body');
+// $div.attr('id', 'toTop').html('<i class="fa fa-arrow-up"></i>').css({'position':'fixed'});
+ });
+</script>
+
 

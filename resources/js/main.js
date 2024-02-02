@@ -12,7 +12,7 @@ $(function() {
     });
 
 
-    //------- Lightbox  js --------//  
+    //------- Lightbox  js --------//
     $('.img-gal').magnificPopup({
       type: 'image',
       gallery: {
@@ -20,7 +20,7 @@ $(function() {
       }
     });
 
-    //------- testimonial carousel --------//  
+    //------- testimonial carousel --------//
     if($('.owl-carousel').length > 0){
       $('.testi-carousel').owlCarousel({
         loop:true,
@@ -44,7 +44,7 @@ $(function() {
     }
 
 
-  //------- initialize menu --------//    
+  //------- initialize menu --------//
   $('.nav-menu').superfish({
     animation: {
       opacity: 'show'
@@ -76,8 +76,8 @@ $(function() {
 	}
 	navbarFixed();
 
-  
-  //------- mobile navigation --------//  
+
+  //------- mobile navigation --------//
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
       id: 'mobile-nav'
@@ -120,7 +120,7 @@ $(function() {
   //------- Active Nice Select --------//
   $('select').niceSelect();
 
-  //------- mailchimp --------//  
+  //------- mailchimp --------//
 	function mailChimp() {
 		$('#mc_embed_signup').find('form').ajaxChimp();
 	}
@@ -129,6 +129,7 @@ $(function() {
 		$('#mc_embed_signup2').find('form').ajaxChimp();
 	}
 	mailChimp2();
-  
+
 });
+
 

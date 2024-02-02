@@ -38,9 +38,10 @@
             </div>
             <div class="card-body">
               <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
-              <h4 class="card-explore__title"><a href="#">Classic Bed Room</a></h4>
+              <h4 class="card-explore__title"><a href="{{ URL::to('') }}/rooms/room-name1">Classic Bed Room</a></h4>
               <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-              <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+              <a class="card-explore__link button button--active home-banner-btn btn-outline" href="{{ URL::to('') }}/rooms/room-name3">Find Out More <i class="ti-arrow-right"></i></a>
+              <a class="card-explore__link button button--active home-banner-btn" href="{{ URL::to('') }}/rooms/room-name1">Book Now <i class="ti-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -52,9 +53,10 @@
             </div>
             <div class="card-body">
               <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
-              <h4 class="card-explore__title"><a href="#">Premium Room</a></h4>
+              <h4 class="card-explore__title"><a href="{{ URL::to('') }}/rooms/room-name2">Premium Room</a></h4>
               <p>Beginning fourth dominion a creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-              <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+              <a class="card-explore__link button button--active home-banner-btn btn-outline" href="{{ URL::to('') }}/rooms/room-name3">Find Out More <i class="ti-arrow-right"></i></a>
+              <a class="card-explore__link button button--active home-banner-btn" href="{{ URL::to('') }}/rooms/room-name2">Book Now <i class="ti-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -66,9 +68,10 @@
             </div>
             <div class="card-body">
               <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
-              <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
+              <h4 class="card-explore__title"><a href="{{ URL::to('') }}/rooms/room-name3">Family Room</a></h4>
               <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-              <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+              <a class="card-explore__link button button--active home-banner-btn btn-outline" href="{{ URL::to('') }}/rooms/room-name3">Find Out More <i class="ti-arrow-right"></i></a>
+              <a class="card-explore__link button button--active home-banner-btn" href="{{ URL::to('') }}/rooms/room-name3">Book Now <i class="ti-arrow-right"></i></a>
             </div>
           </div>
         </div>
