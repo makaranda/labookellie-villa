@@ -1158,9 +1158,11 @@ button {
   height: 40px;
   padding-left: 18px;
   border-color: #EEEEEE; }
+
   .contact_form input:focus {
     outline: 0;
     box-shadow: none; }
+
   .contact_form input::placeholder {
     font-size: 14px;
     color: #999999; }
@@ -1169,6 +1171,7 @@ button {
   border-radius: 0;
   padding-left: 18px;
   border-color: #EEEEEE; }
+
   .contact_form textarea::placeholder {
     font-size: 14px;
     color: #999999; }
