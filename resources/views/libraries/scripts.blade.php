@@ -1,4 +1,5 @@
 
+@stack('js')
 <script src="{{ URL::to('') }}/resources/vendors/jquery/jquery-3.2.1.min.js"></script>
 <script src="{{ URL::to('') }}/resources/vendors/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="{{ URL::to('') }}/resources/vendors/magnefic-popup/jquery.magnific-popup.min.js"></script>
@@ -10,4 +11,4 @@
 <script src="{{ URL::to('') }}/resources/vendors/mail-script.js"></script>
 <script src="{{ URL::to('') }}/resources/js/main.js"></script>
 
-@stack('js')
+

@@ -17,3 +17,23 @@ p,a {
     font-family: 'Roboto';
     text-transform: uppercase;
 }
+
+.video-js {
+    display: contents;
+    width: 100%;
+}
+.video-js .vjs-tech {
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.video-area {
+    background: none;
+    background-size: cover;
+    padding: 0px 10px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff !important;
+}

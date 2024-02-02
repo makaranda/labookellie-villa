@@ -829,10 +829,10 @@ button {
   z-index: 1; }
   @media (min-width: 750px) {
     .video-area {
-      padding: 90px 10px; } }
+      padding: 0px 10px; } }
   @media (min-width: 1000px) {
     .video-area {
-      padding: 175px 10px; } }
+      padding: 0px 10px; } }
   .video-area::after {
     content: "";
     display: block;

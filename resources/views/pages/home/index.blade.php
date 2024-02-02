@@ -195,14 +195,31 @@
 
 
     <!-- ================ video section start ================= -->
-    <section class="video-area">
-      <div class="container">
+    <section class="video-area pl-0 pr-0">
+      <div class="container-fluid">
         <div class="row justify-content-center align-items-center flex-column text-center">
-          <a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
-            <span></span>
-          </a>
-          <h3>Seaplace</h3>
-          <p>View four has said does men saw find dear shy talent</p>
+            <div class="col-12 col-md-12 pl-0 pr-0">
+                <video
+                        id="my-video"
+                        class="video-js"
+                        controls
+                        preload="auto"
+                        width="auto"
+                        height="600"
+                        poster="{{ URL::to('') }}/resources/images/home/video_background.jpg"
+                        data-setup="{}"
+                    >
+                    <source src="{{ URL::to('') }}/resources/videos/home_video.mp4" type="video/mp4" />
+                    <source src="{{ URL::to('') }}/resources/videos/home_video.mp4" type="video/webm" />
+                    <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank"
+                        >supports HTML5 video</a
+                    >
+                    </p>
+                </video>
+          </div>
         </div>
       </div>
     </section>
@@ -218,7 +235,7 @@
           <h2>Special Facilities</h2>
         </div>
         <div class="special-img mb-30px">
-          <img class="img-fluid" src="{{ URL::to('') }}/resources/images/home/XW1A6327_special.JPG" alt="">
+          <img class="img-fluid" src="{{ URL::to('') }}/resources/images/home/special_facilities.jpg" alt="">
         </div>
 
         <div class="row">
@@ -481,6 +498,11 @@
             text-align: center;
         }
     </style>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+@endpush
+
+@push('js')
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 
 @endpush
 
