@@ -696,7 +696,8 @@ button {
       padding-left: 3px;
       transition: all .35s ease; }
   .card-explore:hover a {
-    color: #cca772; }
+    /* color: #cca772;  */
+  }
   .card-explore:hover .card-explore__link i, .card-explore:hover .card-explore__link span {
     padding-left: 10px; }
 

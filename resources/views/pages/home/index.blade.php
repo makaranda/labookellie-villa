@@ -19,7 +19,7 @@
     <!-- ================ end banner area ================= -->
 
     <!-- ================ start banner form ================= -->
-    <form class="form-search form-search-position">
+    {{-- <form class="form-search form-search-position">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 gutters-19">
@@ -96,10 +96,11 @@
         </div>
       </div>
     </form>
+     --}}
     <!-- ================ end banner form ================= -->
 
     <!-- ================ welcome section start ================= -->
-    <section class="welcome">
+    <section class="welcome mt-5 pt-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5 mb-4 mb-lg-0">
@@ -155,7 +156,7 @@
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
                 <h4 class="card-explore__title"><a href="#">Classic Bed Room</a></h4>
                 <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-                <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+                <a class="card-explore__link button button--active home-banner-btn" href="#">Book Now <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -169,7 +170,7 @@
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
                 <h4 class="card-explore__title"><a href="#">Premium Room</a></h4>
                 <p>Beginning fourth dominion a creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-                <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+                <a class="card-explore__link button button--active home-banner-btn" href="#">Book Now <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -183,7 +184,7 @@
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
                 <h4 class="card-explore__title"><a href="#">Family Room</a></h4>
                 <p>Beginning fourth dominion creeping god was. Beginning, which fly yieldi dry beast moved blessed </p>
-                <a class="card-explore__link" href="#">Book Now <i class="ti-arrow-right"></i></a>
+                <a class="card-explore__link button button--active home-banner-btn" href="#">Book Now <i class="ti-arrow-right"></i></a>
               </div>
             </div>
           </div>

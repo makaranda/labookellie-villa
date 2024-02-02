@@ -38,21 +38,21 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>California United States</h3>
+              <h3>Labookellie Villa</h3>
               <p>Santa monica bullevard</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-headphone"></i></span>
             <div class="media-body">
-              <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3><a href="tel:777123456">+(94) 777 123 456</a></h3>
+              <p>Mon-Sun: (24/7)</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
+              <h3><a href="mailto:info@labookellievilla.com">info@labookellievilla.com</a></h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>

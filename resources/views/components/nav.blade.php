@@ -4,7 +4,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div id="logo">
-            <a href="{{ URL::to('') }}"><img src="{{ URL::to('') }}/resources/images/Logo.png" alt="" title="" /></a>
+            <a href="{{ URL::to('') }}"><img src="{{ URL::to('') }}/resources/images/main_logo.png" alt="" title="" /></a>
           </div>
           <div class="ml-auto d-none d-md-block d-md-flex">
             <div class="media header-top-info">
