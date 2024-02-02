@@ -11,14 +11,14 @@
               <span class="header-top-info__icon"><i class="fas fa-phone-volume"></i></span>
               <div class="media-body">
                 <p>Have any question?</p>
-                <p>Free: <a href="tel:+12 365 5233">+12 365 5233</a></p>
+                <p>Hotline: <a href="tel:+94777123456">+777 123 456</a></p>
               </div>
             </div>
             <div class="media header-top-info">
               <span class="header-top-info__icon"><i class="ti-email"></i></span>
               <div class="media-body">
                 <p>Have any question?</p>
-                <p>Free: <a href="tel:+12 365 5233">+12 365 5233</a></p>
+                <p>Email: <a href="mailto:info@labookellievilla.com">info@labookellievilla.com</a></p>
               </div>
             </div>
           </div>
@@ -52,9 +52,8 @@
           <ul class="social-icons ml-auto">
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-            <li><a href="#"><i class="fas fa-rss"></i></a></li>
           </ul>
         </div>
       </nav>

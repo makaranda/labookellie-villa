@@ -8,9 +8,9 @@
                     <div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                         <h4>Customer Service</h4>
                         <ul>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> Call Us: <a href="tel:94777123456">(+94) 77 7 123456</a></li>
-                            <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@labookellievilla.com">info@labookellievilla.com</a></li>
-                            <li><i class="fa fa-clock" aria-hidden="true"></i> <a href="#">Mon-Sun: (24/7)</a></li>
+                            <li><i class="ti-mobile" aria-hidden="true"></i> Call Us: <a href="tel:94777123456">(+94) 77 7 123456</a></li>
+                            <li><i class="ti-email" aria-hidden="true"></i> <a href="mailto:info@labookellievilla.com">info@labookellievilla.com</a></li>
+                            <li><i class="ti-time" aria-hidden="true"></i> <a href="#">Mon-Sun: (24/7)</a></li>
                         </ul>
                     </div>
                     <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
@@ -34,9 +34,9 @@
                         <div class="form-wrap footer-bottom " id="mc_embed_signup">
                             <div class="col-lg-12 col-md-12 text-center text-lg-left footer-social p-0">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-                                <a href="#"><i class="fab fa-behance"></i></a>
                             </div>
                         </div>
                     </div>

@@ -244,7 +244,7 @@
               <div class="media align-items-center mb-1">
                 <span class="card-special__icon"><i class="ti-home"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Conference Room</h4>
+                  <h4 class="card-special__title">Luxury Rooms</h4>
                 </div>
               </div>
               <div class="card-body">
@@ -256,9 +256,9 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-special">
               <div class="media align-items-center mb-1">
-                <span class="card-special__icon"><i class="ti-bell"></i></span>
+                <span class="card-special__icon"><i class="ti-harddrive"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Swimming Pool</h4>
+                  <h4 class="card-special__title">Play Billiard</h4>
                 </div>
               </div>
               <div class="card-body">
@@ -270,9 +270,9 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-special">
               <div class="media align-items-center mb-1">
-                <span class="card-special__icon"><i class="ti-car"></i></span>
+                <span class="card-special__icon"><i class="ti-paint-bucket"></i></span>
                 <div class="media-body">
-                  <h4 class="card-special__title">Sports Culb</h4>
+                  <h4 class="card-special__title">Tea Lounge</h4>
                 </div>
               </div>
               <div class="card-body">
