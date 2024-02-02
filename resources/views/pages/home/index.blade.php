@@ -106,17 +106,17 @@
             <div class="row no-gutters welcome-images">
               <div class="col-sm-7">
                 <div class="card">
-                  <img class="" src="{{ URL::to('') }}/resources/images/home/XW1A6320_llist_left.jpg" alt="Card image cap">
+                  <img class="" src="{{ URL::to('') }}/resources/images/home/home_wc01.jpg" alt="Card image cap">
                 </div>
               </div>
               <div class="col-sm-5">
                 <div class="card">
-                  <img class="" src="{{ URL::to('') }}/resources/images/home/XW1A6320_llist_right.jpg" alt="Card image cap">
+                  <img class="" src="{{ URL::to('') }}/resources/images/home/home_wc02.jpg" alt="Card image cap">
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="card">
-                  <img class="" src="{{ URL::to('') }}/resources/images/home/XW1A6320_llist_bottom.jpg" alt="Card image cap">
+                  <img class="" src="{{ URL::to('') }}/resources/images/home/home_wc03.jpg" alt="Card image cap">
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
+                <img class="card-img" src="{{ URL::to('') }}/resources/images/home/home_rooms1.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
@@ -163,7 +163,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_02.jpg" alt="">
+                <img class="card-img" src="{{ URL::to('') }}/resources/images/home/home_rooms2.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
@@ -177,7 +177,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="{{ URL::to('') }}/resources/images/home/XW1A6319_room_01.jpg" alt="">
+                <img class="card-img" src="{{ URL::to('') }}/resources/images/home/home_rooms3.jpg" alt="">
               </div>
               <div class="card-body">
                 <h3 class="card-explore__price">Rs 20000 <sub>/ Per Night</sub></h3>
