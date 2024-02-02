@@ -8,6 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Labookele Vila | Bungalow</title>
+        <link rel="icon" href="{{ URL::to('') }}/resources/images/favicon.png" type="image/png">
         <meta name="keywords" content="Hotels,  Bungalow in Sri Lanka">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
