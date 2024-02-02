@@ -1135,11 +1135,14 @@ button {
 /*=================== breadcrumb start ====================*/
 .banner-breadcrumb {
   display: inline-block; }
+
   .banner-breadcrumb .breadcrumb {
     background: transparent;
     padding: 0; }
+
     .banner-breadcrumb .breadcrumb-item {
       padding: .1rem; }
+
       .banner-breadcrumb .breadcrumb-item a {
         text-transform: capitalize; }
       .banner-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
