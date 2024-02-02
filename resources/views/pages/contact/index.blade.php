@@ -24,9 +24,20 @@
     <div class="container">
       <!-- google map start -->
       <div class="col-12 col-md-12">
-        @if(Session::has('message'))
+        {{-- @if(Session::has('message'))
             <div class="alert alert-success">
                 {{ Session::get('message') }}
+            </div>
+        @endif --}}
+        @if ($message = Session::get('success'))
+            <div class="alert alert-success  alert-dismissible">
+                <strong>{{ $message }}</strong>
+            </div>
+        @endif
+
+        @if ($message = Session::get('error'))
+            <div class="alert alert-danger  alert-dismissible">
+                <strong>{{ $message }}</strong>
             </div>
         @endif
       </div>
