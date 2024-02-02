@@ -1109,9 +1109,11 @@ button {
       height: 100%;
       background: rgba(1, 2, 11, 0.7);
       z-index: -1; }
+
   .contact-banner-btn {
     border: 2px solid #cca772;
     padding: 10px 45px; }
+
     .contact-banner-btn:hover {
       background: #cca772;
       color: #fff; }
