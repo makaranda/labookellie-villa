@@ -4,11 +4,19 @@
   <!-- ================ start footer Area ================= -->
         <footer class="footer-area section-gap">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Customer Service</h4>
+                        <ul>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> Call Us: <a href="tel:94777123456">(+94) 77 7 123456</a></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@labookellievilla.com">info@labookellievilla.com</a></li>
+                            <li><i class="fa fa-clock" aria-hidden="true"></i> <a href="#">Mon-Sun: (24/7)</a></li>
+                        </ul>
+                    </div>
                     <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                         <h4>Our Partners</h4>
                         <ul>
-                            <li><a href="http://marinobeach.com" target="_new">Marino Beach</a></li>
+                            <li><a href="https://marinobeach.com" target="_new">Marino Beach</a></li>
                             <li><a href="https://sigiriyaforestedge.com" target="_new">Sigiriya Forestedge</a></li>
                         </ul>
                     </div>
@@ -20,52 +28,21 @@
                             <li><a href="{{ URL::to('') }}/contact-us">Contact us</a></li>
                         </ul>
                     </div>
-                    <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Features</h4>
-                        <ul>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Brand Assets</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="#">Guides</a></li>
-                            <li><a href="#">Research</a></li>
-                            <li><a href="#">Experts</a></li>
-                            <li><a href="#">Agencies</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-4 col-md-8 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Newsletter</h4>
+                    <div class="col-xl-5 col-md-8 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>About</h4>
                         <p>You can trust us. we only send promo offers,</p>
-                        <div class="form-wrap" id="mc_embed_signup">
-                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                            method="get" class="form-inline">
-                                <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-                                required="" type="email">
-                                <button class="click-btn btn btn-default text-uppercase">subscribe</button>
-                                <div style="position: absolute; left: -5000px;">
-                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                                </div>
-
-                                <div class="info"></div>
-                            </form>
+                        <div class="form-wrap footer-bottom " id="mc_embed_signup">
+                            <div class="col-lg-12 col-md-12 text-center text-lg-left footer-social p-0">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="footer-bottom row align-items-center text-center text-lg-left">
-                    <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                        <a href="#"><i class="fab fa-behance"></i></a>
-                    </div>
+                    <p class="footer-text m-0 col-lg-12 col-md-12">Copyright &copy; {{ date('Y') }} All rights reserved | Labookellie Villa</p>
                 </div>
             </div>
         </footer>
