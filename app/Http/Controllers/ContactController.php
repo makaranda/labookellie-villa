@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
 use Session;
 
 class ContactController extends Controller
@@ -29,39 +29,39 @@ class ContactController extends Controller
            return redirect()->Back()->withInput()->withErrors($validator);
 
         }else{
-            $mail = new PHPMailer(true);
-            try {
+            //$mail = new PHPMailer(true);
+            // try {
 
-                /* Email SMTP Settings */
-                $mail->SMTPDebug = 0;
-                $mail->isSMTP();
-                $mail->Host = env('MAIL_HOST');
-                $mail->SMTPAuth = true;
-                $mail->Username = env('MAIL_USERNAME');
-                $mail->Password = env('MAIL_PASSWORD');
-                $mail->SMTPSecure = env('MAIL_ENCRYPTION');
-                $mail->Port = env('MAIL_PORT');
+            //     /* Email SMTP Settings */
+            //     $mail->SMTPDebug = 0;
+            //     $mail->isSMTP();
+            //     $mail->Host = env('MAIL_HOST');
+            //     $mail->SMTPAuth = true;
+            //     $mail->Username = env('MAIL_USERNAME');
+            //     $mail->Password = env('MAIL_PASSWORD');
+            //     $mail->SMTPSecure = env('MAIL_ENCRYPTION');
+            //     $mail->Port = env('MAIL_PORT');
 
-                $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
-                $mail->addAddress($request->email);
+            //     $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
+            //     $mail->addAddress($request->email);
 
-                $mail->isHTML(true);
+            //     $mail->isHTML(true);
 
-                $mail->Subject = $request->subject;
-                $mail->Body    = $request->body;
+            //     $mail->Subject = $request->subject;
+            //     $mail->Body    = $request->body;
 
-                if( !$mail->send() ) {
+            //     if( !$mail->send() ) {
 
-                    return back()->with("error", "Email not sent.")->withErrors($mail->ErrorInfo);
-                }
+            //         return back()->with("error", "Email not sent.")->withErrors($mail->ErrorInfo);
+            //     }
 
-                else {
-                    return back()->with("success", "Email has been sent.");
-                }
+            //     else {
+            //         return back()->with("success", "Email has been sent.");
+            //     }
 
-            } catch (Exception $e) {
-                    return back()->with('error','Message could not be sent.');
-            }
+            // } catch (Exception $e) {
+            //         return back()->with('error','Message could not be sent.');
+            // }
 
             //Session::put('message','Form submit Successfully.');
            //Session::save();

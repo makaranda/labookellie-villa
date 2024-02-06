@@ -27,21 +27,21 @@
 				<div class="col-md-5">
 					<div class="row">
 						<div class="col-12 mb-4">
-							<a href="{{ URL::to('') }}/resources/images/gallery/g1.png" class="img-gal card-img">
+							<a href="{{ URL::to('') }}/resources/images/gallery/g1-458x440.jpg" class="img-gal card-img">
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g1.png" alt="">
+										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g1-458x440.jpg" alt="">
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="col-12 mb-4">
-							<a href="{{ URL::to('') }}/resources/images/gallery/g2.png" class="img-gal card-img">
+							<a href="{{ URL::to('') }}/resources/images/gallery/g2-458x699.jpg" class="img-gal card-img">
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g2.png" alt="">
+										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g2-458x699.jpg" alt="">
 									</div>
 								</div>
 							</a>
@@ -52,21 +52,21 @@
 				<div class="col-md-7">
 					<div class="row">
 						<div class="col-sm-7 mb-4">
-							<a href="{{ URL::to('') }}/resources/images/gallery/g3.png" class="img-gal card-img">
+							<a href="{{ URL::to('') }}/resources/images/gallery/g3-360x327.jpg" class="img-gal card-img">
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g3.png" alt="">
+										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g3-360x327.jpg" alt="">
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-5 mb-4">
-							<a href="{{ URL::to('') }}/resources/images/gallery/g4.png" class="img-gal card-img">
+							<a href="{{ URL::to('') }}/resources/images/gallery/g4-261x327.jpg" class="img-gal card-img">
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g4.png" alt="">
+										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g4-261x327.jpg" alt="">
 									</div>
 								</div>
 							</a>
@@ -74,11 +74,11 @@
 					</div>
 					<div class="row">
 						<div class="col-12 mb-4">
-							<a href="{{ URL::to('') }}/resources/images/gallery/g5.png" class="img-gal card-img">
+							<a href="{{ URL::to('') }}/resources/images/gallery/g5-652x408.jpg" class="img-gal card-img">
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g5.png" alt="">
+										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g5-652x408.jpg" alt="">
 									</div>
 								</div>
 							</a>
@@ -86,11 +86,11 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-7 mb-4">
-							<a href="{{ URL::to('') }}/resources/images/gallery/g6.png" class="img-gal card-img">
+							<a href="{{ URL::to('') }}/resources/images/gallery/g6-360x372.jpg" class="img-gal card-img">
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g6.png" alt="">
+										<img class="card-img rounded-0" src="{{ URL::to('') }}/resources/images/gallery/g6-360x372.jpg" alt="">
 									</div>
 								</div>
 							</a>
