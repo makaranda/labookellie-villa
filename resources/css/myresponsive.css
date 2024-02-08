@@ -73,6 +73,7 @@
         height: 300px;
         object-fit: cover;
     }
+
     .thumbnails {
         position: relative;
         overflow-y: scroll;
