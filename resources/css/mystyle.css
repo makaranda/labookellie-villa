@@ -4,7 +4,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-<<<<<<< HEAD
 .welcome-content h2 {
     font-family: "Old Standard TT", Georgia, Times, "Times New Roman", serif;
     color: #222222;
@@ -27,8 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 "Century Gothic Paneuropean", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif
 */
 
-=======
->>>>>>> a592b5e8540905cb889eaabf582f3ee85af79121
 p,a {
     /*font-family: 'Roboto' !important;*/
     font-family: "Didact Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -77,11 +74,8 @@ section p{
     z-index: 1;
     background-color: #fff !important;
 }
-<<<<<<< HEAD
 /*
-=======
 
->>>>>>> a592b5e8540905cb889eaabf582f3ee85af79121
 .footer-area {
     padding: 120px 0px 80px;
     background: #0b1a2a;
@@ -442,9 +436,11 @@ section {
     font-weight: 500;
 }
 
+
 .destinations-items{
     box-shadow: 0px 0px 10px 0px #00000038;
 }
+
 
 
 

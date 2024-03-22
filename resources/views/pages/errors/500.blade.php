@@ -16,6 +16,7 @@
 
 @endsection
 
+
 @push('css')
     <style>
    #notfound {

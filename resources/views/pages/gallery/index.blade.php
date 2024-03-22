@@ -18,6 +18,7 @@
             </div>
         </div>
 </div>
+
 </section>
 
  <!-- ================ start gallery section ================= -->
