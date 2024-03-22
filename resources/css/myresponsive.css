@@ -107,20 +107,24 @@
         height: 300px;
         object-fit: cover;
     }
+
     .thumbnails {
         position: relative;
         overflow-y: scroll;
         height: 40px;
         display: flex;
     }
+
     .card-explore__link {
         font-size: 10px;
     }
+
     #toTop {
         bottom: 14px;
         left: 6%;
         right: unset;
     }
+
     .thumbnails a {
         padding: 0 2px;
     }
