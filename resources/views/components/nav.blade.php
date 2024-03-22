@@ -8,19 +8,22 @@
           </div>
           <div class="ml-auto d-none d-md-block d-md-flex">
             <div class="media header-top-info">
-              <span class="header-top-info__icon"><i class="fas fa-phone-volume"></i></span>
+                <a href="{{ URL::to('') }}" class="button button--active home-banner-btn mt-2">Book a Room</a>
+              <!--<span class="header-top-info__icon"><i class="fas fa-phone-volume"></i></span>
               <div class="media-body">
                 <p>Have any question?</p>
                 <p>Hotline: <a href="tel:+94777123456">+777 123 456</a></p>
               </div>
+              -->
             </div>
-            <div class="media header-top-info">
+            <!--<div class="media header-top-info">
               <span class="header-top-info__icon"><i class="ti-email"></i></span>
               <div class="media-body">
                 <p>Have any question?</p>
                 <p>Email: <a href="mailto:info@labookellievilla.com">info@labookellievilla.com</a></p>
               </div>
-            </div>
+             
+            </div> -->
           </div>
         </div>
       </div>
@@ -42,8 +45,9 @@
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav">
               <li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}">Home</a></li>
-              <li class="nav-item {{ request()->is('about-us') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/about-us">About us</a></li>
-              <li class="nav-item {{ request()->is('rooms') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/rooms">Rooms</a></li>
+              <li class="nav-item {{ request()->is('accommodations') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/accommodations">Accommodations</a></li> 
+              <li class="nav-item {{ request()->is('experiences') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/experiences">Experiences</a></li>
+              <li class="nav-item {{ request()->is('dining') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/dining">Dining</a></li>
               <li class="nav-item {{ request()->is('gallery') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/gallery">Gallery</a></li>
               <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}"><a class="nav-link" href="{{ URL::to('') }}/contact-us">Contact us</a></li>
             </ul>

@@ -30,25 +30,25 @@ class ContactController extends Controller
 
         }else{
             $mail = new PHPMailer(true);
-            try {
+            //try {
 
                 /* Email SMTP Settings */
                 $mail->SMTPDebug = 0;
                 $mail->isSMTP();
-                $mail->Host = env('MAIL_HOST');
+                $mail->Host = 'mail.marinobeach.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = env('MAIL_USERNAME');
-                $mail->Password = env('MAIL_PASSWORD');
-                $mail->SMTPSecure = env('MAIL_ENCRYPTION');
-                $mail->Port = env('MAIL_PORT');
+                $mail->Username = 'support@marinobeach.com';
+                $mail->Password = 'SZB2O7P12Q6V';
+                $mail->SMTPSecure = 'ssl';
+                $mail->Port = '465';
 
-                $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
+                $mail->setFrom('support@marinobeach.com','marinobeach');
                 $mail->addAddress($request->email);
 
                 $mail->isHTML(true);
 
                 $mail->Subject = $request->subject;
-                $mail->Body    = $request->body;
+                $mail->Body    = $request->message;
 
                 if( !$mail->send() ) {
 
@@ -58,11 +58,11 @@ class ContactController extends Controller
                 else {
                     return back()->with("success", "Email has been sent.");
                 }
-
+/*
             } catch (Exception $e) {
                     return back()->with('error','Message could not be sent.');
             }
-
+*/
             //Session::put('message','Form submit Successfully.');
            //Session::save();
         }

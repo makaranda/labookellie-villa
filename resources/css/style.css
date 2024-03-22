@@ -647,7 +647,11 @@ button {
         width: 100%; } }
   @media (min-width: 991px) {
     .welcome-content {
-      padding-left: 60px; } }
+      /*padding-left: 60px;*/ 
+        
+    } 
+      
+  }
 
 /*=================== welcome section end ====================*/
 /*=================== explore section start ====================*/

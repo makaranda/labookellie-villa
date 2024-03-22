@@ -1,6 +1,7 @@
 
 
         <!-- Favicons -->
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="{{ URL::to('') }}/resources/images/icons/favicon.png">
     @stack('css')
     <link rel="stylesheet" href="{{ URL::to('') }}/resources/vendors/bootstrap/bootstrap.min.css">
