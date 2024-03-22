@@ -29,7 +29,6 @@ class ContactController extends Controller
            return redirect()->Back()->withInput()->withErrors($validator);
 
         }else{
-<<<<<<< HEAD
             $mail = new PHPMailer(true);
             //try {
 
@@ -45,7 +44,6 @@ class ContactController extends Controller
 
                 $mail->setFrom('support@marinobeach.com','marinobeach');
                 $mail->addAddress($request->email);
-=======
             //$mail = new PHPMailer(true);
             // try {
 
@@ -61,33 +59,27 @@ class ContactController extends Controller
 
             //     $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
             //     $mail->addAddress($request->email);
->>>>>>> a592b5e8540905cb889eaabf582f3ee85af79121
 
             //     $mail->isHTML(true);
 
-<<<<<<< HEAD
                 $mail->Subject = $request->subject;
                 $mail->Body    = $request->message;
-=======
             //     $mail->Subject = $request->subject;
             //     $mail->Body    = $request->body;
->>>>>>> a592b5e8540905cb889eaabf582f3ee85af79121
 
             //     if( !$mail->send() ) {
 
             //         return back()->with("error", "Email not sent.")->withErrors($mail->ErrorInfo);
             //     }
 
-<<<<<<< HEAD
-                else {
-                    return back()->with("success", "Email has been sent.");
-                }
+               //  else {
+               //      return back()->with("success", "Email has been sent.");
+               //  }
 /*
             } catch (Exception $e) {
                     return back()->with('error','Message could not be sent.');
             }
 */
-=======
             //     else {
             //         return back()->with("success", "Email has been sent.");
             //     }
@@ -96,7 +88,6 @@ class ContactController extends Controller
             //         return back()->with('error','Message could not be sent.');
             // }
 
->>>>>>> a592b5e8540905cb889eaabf582f3ee85af79121
             //Session::put('message','Form submit Successfully.');
            //Session::save();
         }
